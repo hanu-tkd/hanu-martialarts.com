@@ -18,10 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+about {
+  /* max-width: ; */
+  margin: 100px;
+  padding: 2rem;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
